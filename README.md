@@ -27,7 +27,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/my-tasks-app.git
+   git clone https://github.com/Vinamra04/MyTasks.git my-tasks-app
    cd my-tasks-app
    ```
 
@@ -71,10 +71,10 @@ npx expo start --web
 | ![Welcome](screenshots/welcome.png) | ![Tasks](screenshots/tasks.png) | ![Details](screenshots/details.png) | ![Settings](screenshots/settings.png) |
 | **Welcome Dashboard** | **Task Management** | **Task Details** | **Settings & Preferences** |
 
-| Light Theme | Notifications |
-|:-----------:|:-------------:|
-| ![Light](screenshots/light.png) | ![Notifications](screenshots/notifications.png) |
-| **Light Theme** | **Smart Notifications** |
+| Developer Modal | Dark Theme | Light Theme | Notifications |
+|:---------------:|:----------:|:-----------:|:-------------:|
+| ![Developer](screenshots/developer.png) | ![Dark](screenshots/newtask.png) | ![Light](screenshots/light.png) | ![Notifications](screenshots/notifications.png) |
+| **Developer Profile** | **Add New Task** | **Light Theme** | **Smart Notifications** |
 
 </div>
 
@@ -128,36 +128,52 @@ npx expo start --web
 ### 🎁 Bonus Features (All Completed)
 
 #### 1. **Data Persistence**
-- Complete AsyncStorage integration with automatic backup
-- Cross-session task retention and data integrity maintenance
+- Complete AsyncStorage integration
+- Automatic data backup and recovery
+- Cross-session task retention
+- Data integrity maintenance
 
 #### 2. **Edit Task Functionality**
-- Comprehensive task editing screen with validation
-- In-line editing capabilities and auto-save functionality
+- Comprehensive task editing screen
+- In-line editing capabilities
+- Field validation and error handling
+- Auto-save functionality
 
 #### 3. **Task Prioritization**
 - Three-tier priority system (High, Medium, Low)
-- Color-coded indicators with priority-based sorting
+- Color-coded priority indicators
+- Priority-based sorting algorithms
+- Visual priority representations
 
 #### 4. **Smart Notification Management**
 - Automatic notification cancellation for completed tasks
-- Custom scheduling with permission management
+- Custom notification scheduling
+- Notification permission management
+- Test notification functionality
 
 #### 5. **Modern UI/UX Enhancements**
-- Consistent design system with smooth animations
-- Gesture-based interactions and professional typography
+- Consistent design system with custom theme
+- Smooth animations throughout the app
+- Gesture-based interactions
+- Professional color palette and typography
 
 #### 6. **Advanced Settings Screen**
-- Theme toggle (Dark/Light mode) with preferences
-- Data management tools and app statistics
+- Theme toggle (Dark/Light mode)
+- Notification preferences
+- Data management tools
+- App information and statistics
 
 #### 7. **Welcome Dashboard**
-- Comprehensive task statistics with time-based greetings
-- Progress tracking with motivational quotes and actions
+- Comprehensive task statistics
+- Time-based greetings
+- Progress tracking with visual indicators
+- Motivational quotes and quick actions
 
 #### 8. **"Know the Developer" Modal**
-- Professional developer profile with animated links
-- Tech stack information and contact portfolio
+- Professional developer profile showcase
+- Animated social media links
+- Tech stack information
+- Contact information and portfolio links
 
 ### 🚀 Additional Features (Self-Implemented)
 

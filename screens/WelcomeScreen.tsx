@@ -46,8 +46,12 @@ const StatCard: React.FC<StatCardProps> = ({ title, value, icon, color, subtitle
     <Animated.View style={[{ transform: [{ scale: scaleAnim }] }]}>
       <View style={[styles.statCard, { backgroundColor: theme.colors.card }]}>
         <View style={styles.statHeader}>
-          <Ionicons name={icon} size={24} color={color} />
-          <Text style={[styles.statTitle, { color: theme.colors.text.secondary }]}>
+          <Ionicons name={icon} size={20} color={color} />
+          <Text 
+            style={[styles.statTitle, { color: theme.colors.text.secondary }]}
+            numberOfLines={2}
+            adjustsFontSizeToFit
+          >
             {title}
           </Text>
         </View>
@@ -428,7 +432,7 @@ const styles = StyleSheet.create({
   },
   statCard: {
     width: '100%', // Full width within the column
-    minHeight: 120, // Fixed minimum height for consistency
+    height: 120, // Fixed height for all cards
     padding: 20,
     borderRadius: 16,
     justifyContent: 'space-between',
@@ -437,19 +441,21 @@ const styles = StyleSheet.create({
   statHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 12,
+    marginBottom: 8,
+    height: 28, // Fixed height for header section
   },
   statTitle: {
-    fontSize: 15,
+    fontSize: 14, // Slightly smaller to fit better
     fontWeight: '600',
     marginLeft: 10,
     flex: 1,
   },
   statValue: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginVertical: 8,
+    marginVertical: 4,
+    flex: 1, // Take remaining space
   },
   statSubtitle: {
     fontSize: 13,
