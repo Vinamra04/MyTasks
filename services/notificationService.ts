@@ -1,5 +1,20 @@
 import * as Notifications from 'expo-notifications';
+import Constants from 'expo-constants';
 import { Task, NotificationData } from '../types';
+
+// Suppress the Expo Go notification warning that appears on startup
+const originalWarn = console.warn;
+console.warn = (...args) => {
+  const message = args.join(' ');
+  if (
+    message.includes('expo-notifications') && 
+    (message.includes('removed from Expo Go') || message.includes('SDK 53'))
+  ) {
+    // Silently ignore this specific warning about Expo Go limitations
+    return;
+  }
+  originalWarn(...args);
+};
 
 // Configure notification handler
 Notifications.setNotificationHandler({
