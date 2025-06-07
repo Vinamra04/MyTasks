@@ -45,6 +45,11 @@
    - Open **Expo Go** app on your mobile device
    - Scan the QR code displayed in your terminal/browser
    - The app will load automatically on your device
+  
+5. **You can download the apk on your Android devices directly from this link**
+   ```bash
+   https://expo.dev/accounts/vinamra04/projects/my-tasks-app/builds/6f1d84c7-72ec-4fcf-9827-b35e32ef2c37
+   ```
 
 ### Alternative Running Methods
 ```bash
