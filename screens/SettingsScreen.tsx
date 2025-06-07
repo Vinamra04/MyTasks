@@ -465,15 +465,13 @@ export default function SettingsScreen() {
   const handleSocialLinkPress = (platform: string, url: string) => {
     Alert.alert(
       `Visit ${platform}`,
-      'This will redirect you to the external link. (Links will be updated by the developer)',
+      'This will open the link in your default browser.',
       [
         { text: 'Cancel', style: 'cancel' },
         {
           text: 'Visit',
           onPress: () => {
-            // Placeholder for now - you can edit these later
-            console.log(`Opening ${platform}: ${url}`);
-            // Linking.openURL(url);
+            Linking.openURL(url);
           },
         },
       ]
