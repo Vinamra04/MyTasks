@@ -60,6 +60,32 @@ npx expo start --web
 
 ---
 
+## 📱 Screenshots & Demo
+
+### 🌟 App Screens
+
+<div align="center">
+  
+| Welcome Dashboard | Tasks Screen | Task Details | Settings Screen |
+|:-----------------:|:------------:|:------------:|:---------------:|
+| ![Welcome](screenshots/welcome.png) | ![Tasks](screenshots/tasks.png) | ![Details](screenshots/details.png) | ![Settings](screenshots/settings.png) |
+| **Welcome Dashboard** | **Task Management** | **Task Details** | **Settings & Preferences** |
+
+| Developer Modal | Dark Theme | Light Theme | Notifications |
+|:---------------:|:----------:|:-----------:|:-------------:|
+| ![Developer](screenshots/developer.png) | ![Dark](screenshots/dark.png) | ![Light](screenshots/light.png) | ![Notifications](screenshots/notifications.png) |
+| **Developer Profile** | **Dark Theme** | **Light Theme** | **Smart Notifications** |
+
+</div>
+
+### 🎯 Key Features Showcase
+- **Smooth theme switching** with instant visual feedback
+- **Animated task completion** with satisfying micro-interactions
+- **Intuitive navigation** with gesture support
+- **Professional modal presentations** with backdrop effects
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose | Version |
@@ -80,84 +106,58 @@ npx expo start --web
 ### ✅ Required Features (All Completed)
 
 #### 1. **Task Input**
-- Clean text input field for adding tasks
-- Dedicated "Add Task" button with loading states
-- Form validation and error handling
-- Maximum character limits with counters
+- Clean text input field with validation and loading states
+- Dedicated "Add Task" button with form error handling
 
 #### 2. **Task List Display**
-- Scrollable list with smooth performance
-- Pull-to-refresh functionality
-- Empty state with motivational messages
-- Priority-based sorting and visual indicators
+- Scrollable list with pull-to-refresh functionality
+- Priority-based sorting with empty state messages
 
 #### 3. **Task Completion Toggle**
 - Interactive checkbox with smooth animations
-- Strike-through text for completed tasks
-- Visual completion indicators
-- Real-time status updates
+- Strike-through text and visual completion indicators
 
 #### 4. **Delete Task**
-- Swipe-to-delete functionality
-- Confirmation dialogs for safety
-- Trash icon with confirmation alerts
-- Bulk deletion options
+- Swipe-to-delete with confirmation dialogs
+- Trash icon with safety alerts and bulk deletion
 
 #### 5. **Local Notification System**
-- Automatic notifications for new tasks
-- Customizable notification timing
-- Task name and reminder messages
-- Permission handling and fallback
+- Automatic notifications with customizable timing
+- Task name reminders with permission handling
 
 ### 🎁 Bonus Features (All Completed)
 
 #### 1. **Data Persistence**
-- Complete AsyncStorage integration
-- Automatic data backup and recovery
-- Cross-session task retention
-- Data integrity maintenance
+- Complete AsyncStorage integration with automatic backup
+- Cross-session task retention and data integrity maintenance
 
 #### 2. **Edit Task Functionality**
-- Comprehensive task editing screen
-- In-line editing capabilities
-- Field validation and error handling
-- Auto-save functionality
+- Comprehensive task editing screen with validation
+- In-line editing capabilities and auto-save functionality
 
 #### 3. **Task Prioritization**
 - Three-tier priority system (High, Medium, Low)
-- Color-coded priority indicators
-- Priority-based sorting algorithms
-- Visual priority representations
+- Color-coded indicators with priority-based sorting
 
 #### 4. **Smart Notification Management**
 - Automatic notification cancellation for completed tasks
-- Custom notification scheduling
-- Notification permission management
-- Test notification functionality
+- Custom scheduling with permission management
 
 #### 5. **Modern UI/UX Enhancements**
-- Consistent design system with custom theme
-- Smooth animations throughout the app
-- Gesture-based interactions
-- Professional color palette and typography
+- Consistent design system with smooth animations
+- Gesture-based interactions and professional typography
 
 #### 6. **Advanced Settings Screen**
-- Theme toggle (Dark/Light mode)
-- Notification preferences
-- Data management tools
-- App information and statistics
+- Theme toggle (Dark/Light mode) with preferences
+- Data management tools and app statistics
 
 #### 7. **Welcome Dashboard**
-- Comprehensive task statistics
-- Time-based greetings
-- Progress tracking with visual indicators
-- Motivational quotes and quick actions
+- Comprehensive task statistics with time-based greetings
+- Progress tracking with motivational quotes and actions
 
 #### 8. **"Know the Developer" Modal**
-- Professional developer profile showcase
-- Animated social media links
-- Tech stack information
-- Contact information and portfolio links
+- Professional developer profile with animated links
+- Tech stack information and contact portfolio
 
 ### 🚀 Additional Features (Self-Implemented)
 
@@ -267,23 +267,6 @@ my-tasks-app/
 - Pull-to-refresh for intuitive data updates
 - Loading states and error handling for reliability
 - Animations and micro-interactions for engagement
-
----
-
-## 📱 Screenshots & Demo
-
-### 🌟 Key Screens
-- **Welcome Dashboard**: Comprehensive task overview with statistics
-- **Task Management**: Full CRUD operations with search and filters  
-- **Task Details**: Rich editing experience with priority and scheduling
-- **Settings**: Theme control and developer information
-- **Developer Modal**: Professional profile showcase
-
-### 🎯 Key Interactions
-- Smooth theme switching with instant visual feedback
-- Animated task completion with satisfying micro-interactions
-- Intuitive navigation with gesture support
-- Professional modal presentations with backdrop effects
 
 ---
 
