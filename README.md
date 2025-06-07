@@ -71,10 +71,10 @@ npx expo start --web
 | ![Welcome](screenshots/welcome.png) | ![Tasks](screenshots/tasks.png) | ![Details](screenshots/details.png) | ![Settings](screenshots/settings.png) |
 | **Welcome Dashboard** | **Task Management** | **Task Details** | **Settings & Preferences** |
 
-| Developer Modal | Dark Theme | Light Theme | Notifications |
-|:---------------:|:----------:|:-----------:|:-------------:|
-| ![Developer](screenshots/developer.png) | ![Dark](screenshots/dark.png) | ![Light](screenshots/light.png) | ![Notifications](screenshots/notifications.png) |
-| **Developer Profile** | **Dark Theme** | **Light Theme** | **Smart Notifications** |
+| Light Theme | Notifications |
+|:-----------:|:-------------:|
+| ![Light](screenshots/light.png) | ![Notifications](screenshots/notifications.png) |
+| **Light Theme** | **Smart Notifications** |
 
 </div>
 
